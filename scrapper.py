@@ -100,8 +100,8 @@ class Scrape:
                 else:
                     print(f"{W}{current_time}{C}||Couldn't scrape {self.guild_id}")
 
-token = ""
+token = "Token here"
 scraper = Scrape(token)
-guild_id = ""
-channel_id = ""
+guild_id = "guild here"
+channel_id = "Channel ID here"
 scraper.scrape(guild_id, channel_id)
